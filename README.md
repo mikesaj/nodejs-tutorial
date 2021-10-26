@@ -1,1 +1,1 @@
-# image-thumbnail-generator
+# Image Thumbnail Generator Service
