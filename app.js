@@ -7,7 +7,6 @@ const bodyParser = require("body-parser");
 
 dotenv.config();
 const index = require("./routes/index");
-const users = require("./routes/users");
 const upload = require("./routes/upload");
 
 const app = express();
@@ -23,7 +22,6 @@ if (app.get("env") !== "production") {
 }
 
 app.use("/", index);
-app.use("/users", users);
 app.use("/upload", upload);
 
 // catch 404 and forward to error handler
