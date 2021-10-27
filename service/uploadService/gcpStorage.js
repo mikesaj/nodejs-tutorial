@@ -2,7 +2,7 @@ const { Storage } = require("@google-cloud/storage");
 const { format } = require("util");
 
 const storageURL = "https://storage.googleapis.com";
-const keyFilename = "./util/auth/service_account_keys/gcpKey.json";
+const keyFilename = "./service/uploadService/util/auth/gcpKey.json";
 const bucketName = process.env.Bucket_Name;
 
 // Instantiate a storage client with credentials
